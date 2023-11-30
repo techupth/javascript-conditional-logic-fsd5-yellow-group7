@@ -2,4 +2,7 @@
 // Ternary Operator
 let lightBulbStatus = "Off";
 
-//Start coding here
+let checkLightBulbStatus =
+  lightBulbStatus === "On" ? "light bulb is On." : "Light bulb is Off.";
+
+console.log(checkLightBulbStatus);
